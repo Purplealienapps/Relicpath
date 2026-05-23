@@ -4,127 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RelicPath</title>
-   <style>
-    body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        background: #121512;
-        color: #f4efe3;
-        line-height: 1.6;
-    }
 
-    header {
-        background: linear-gradient(180deg, #c49a3a, #8b6a24);
-        color: #121512;
-        padding: 48px 22px;
-        text-align: center;
-    }
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #121512;
+            color: #f4efe3;
+            line-height: 1.6;
+        }
 
-    .site-logo {
-        width: 132px;
-        height: 132px;
-        object-fit: contain;
-        display: block;
-        margin: 0 auto 18px;
-        border-radius: 28px;
-        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
-    }
+        header {
+            background: linear-gradient(180deg, #c49a3a, #8b6a24);
+            color: #121512;
+            padding: 48px 22px;
+            text-align: center;
+        }
 
-    header h1 {
-        margin: 0;
-        font-size: 42px;
-        font-weight: 900;
-    }
+        .site-logo {
+            width: 132px;
+            height: 132px;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 18px;
+            border-radius: 28px;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+        }
 
-    header p {
-        max-width: 760px;
-        margin: 14px auto 0;
-        font-size: 18px;
-        font-weight: 600;
-    }
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+            font-weight: 900;
+        }
 
-    main {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 28px 22px 48px;
-    }
+        header p {
+            max-width: 760px;
+            margin: 14px auto 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
 
-    section {
-        background: #1d221d;
-        border-radius: 22px;
-        padding: 24px;
-        margin-bottom: 22px;
-    }
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 28px 22px 48px;
+        }
 
-    h2 {
-        color: #c49a3a;
-        margin-top: 0;
-        font-size: 26px;
-    }
+        section {
+            background: #1d221d;
+            border-radius: 22px;
+            padding: 24px;
+            margin-bottom: 22px;
+        }
 
-    a {
-        color: #c49a3a;
-        font-weight: bold;
-    }
+        h2 {
+            color: #c49a3a;
+            margin-top: 0;
+            font-size: 26px;
+        }
 
-    .link-card {
-        border-top: 1px solid #333b33;
-        padding: 18px 0;
-    }
+        h3 {
+            color: #c49a3a;
+        }
 
-    .link-card:first-of-type {
-        border-top: none;
-    }
+        a {
+            color: #c49a3a;
+            font-weight: bold;
+        }
 
-    .screenshots-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        gap: 22px;
-        margin-top: 20px;
-    }
+        .screenshots-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 22px;
+            margin-top: 20px;
+        }
 
-    .screenshot-card {
-        background: #121512;
-        border: 1px solid #333b33;
-        border-radius: 24px;
-        padding: 16px;
-    }
+        .screenshot-card {
+            background: #121512;
+            border: 1px solid #333b33;
+            border-radius: 24px;
+            padding: 16px;
+        }
 
-    .screenshot-card img {
-        width: 100%;
-        border-radius: 18px;
-        border: 2px solid #333b33;
-        background: #121512;
-        display: block;
-    }
+        .screenshot-card img {
+            width: 100%;
+            border-radius: 18px;
+            border: 2px solid #333b33;
+            background: #121512;
+            display: block;
+        }
 
-    .screenshot-card h3 {
-        color: #c49a3a;
-        margin: 14px 0 8px;
-        font-size: 19px;
-    }
+        .screenshot-card h3 {
+            color: #c49a3a;
+            margin: 14px 0 8px;
+            font-size: 19px;
+        }
 
-    .screenshot-card p {
-        color: #f4efe3;
-        font-size: 14px;
-        line-height: 1.55;
-        margin: 0;
-    }
+        .screenshot-card p {
+            color: #f4efe3;
+            font-size: 14px;
+            line-height: 1.55;
+            margin: 0;
+        }
 
-    footer {
-        text-align: center;
-        color: #b9ad92;
-        padding: 24px;
-        font-size: 14px;
-    }
-</style>
+        .link-card {
+            border-top: 1px solid #333b33;
+            padding: 18px 0;
+        }
+
+        .link-card:first-of-type {
+            border-top: none;
+        }
+
+        footer {
+            text-align: center;
+            color: #b9ad92;
+            padding: 24px;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
-    <img 
-        src="images/relicpath-logo.png" 
-        alt="RelicPath app logo" 
+    <img
+        src="images/relicpath-logo.png"
+        alt="RelicPath app logo"
         class="site-logo"
     >
 
@@ -140,41 +146,13 @@
 <main>
     <section>
         <h2>About RelicPath</h2>
+
         <p>
             RelicPath helps metal detecting hobbyists track detecting trips,
             save GPS routes, log finds, attach photo references, review past hunts,
             view maps, export records, and manage profile and cloud backup features.
         </p>
-        App Screenshots
-Preview RelicPath features for live detecting, route tracking, find logging, saved trip history, and map review tools.
 
-RelicPath live trip satellite map showing route and find pins
-Live Trip Map — Satellite View
-Track an active detecting trip in satellite mode. RelicPath displays the walked route, find markers, trip timer, map mode, and quick access to the Add Find button.
-
-RelicPath live trip standard map showing route and find pins
-Live Trip Map — Standard View
-Switch between map and satellite views during a hunt. The standard map view helps users follow streets, park paths, route progress, and detected find locations.
-
-RelicPath paused detecting trip overlay with time yards and finds
-Trip Pause Controls
-Pause an active hunt to review elapsed time, distance in yards, and number of finds before resuming or ending the trip.
-
-RelicPath live detecting map with active timer and add find button
-Active Detecting Controls
-Keep the most important live hunt controls on screen: detecting timer, route direction control, map toggle, and a large Add Find button for quick field logging.
-
-RelicPath trips screen showing completed Demo Park trip card
-Trips & Finds History
-Review completed detecting trips with saved trip cards, trip time, distance, find count, landowner information, hunting partners, and the finds library.
-
-RelicPath maps screen showing live trip map past trips map and heat map options
-Maps Hub
-Access the main map tools from one clean screen: Live Trip Map for active hunts, Past Trips Map for saved routes, and Heat Map tools for find-density review.
-
-RelicPath past trips map showing saved route and find pins
-Past Trips Map
-Revisit saved routes after a hunt. The Past Trips Map shows the selected trip route, saved route points, and find markers for trip review and future planning.
         <p>
             The app is designed for responsible hobby use. Users are responsible
             for obtaining permission to detect, following local laws, protecting
@@ -183,10 +161,126 @@ Revisit saved routes after a hunt. The Past Trips Map shows the selected trip ro
     </section>
 
     <section>
+        <h2>App Screenshots</h2>
+
+        <p>
+            Preview RelicPath features for live detecting, route tracking,
+            find logging, saved trip history, and map review tools.
+        </p>
+
+        <div class="screenshots-grid">
+            <article class="screenshot-card">
+                <img
+                    src="images/live-map-satellite.jpg"
+                    alt="RelicPath live trip satellite map showing route and find pins"
+                >
+
+                <h3>Live Trip Map — Satellite View</h3>
+
+                <p>
+                    Track an active detecting trip in satellite mode. RelicPath
+                    displays the walked route, find markers, trip timer, map mode,
+                    and quick access to the Add Find button.
+                </p>
+            </article>
+
+            <article class="screenshot-card">
+                <img
+                    src="images/live-map-standard.jpg"
+                    alt="RelicPath live trip standard map showing route and find pins"
+                >
+
+                <h3>Live Trip Map — Standard View</h3>
+
+                <p>
+                    Switch between map and satellite views during a hunt. The
+                    standard map view helps users follow streets, park paths,
+                    route progress, and detected find locations.
+                </p>
+            </article>
+
+            <article class="screenshot-card">
+                <img
+                    src="images/live-map-paused.jpg"
+                    alt="RelicPath paused detecting trip overlay with time yards and finds"
+                >
+
+                <h3>Trip Pause Controls</h3>
+
+                <p>
+                    Pause an active hunt to review elapsed time, distance in yards,
+                    and number of finds before resuming or ending the trip.
+                </p>
+            </article>
+
+            <article class="screenshot-card">
+                <img
+                    src="images/live-map-city.jpg"
+                    alt="RelicPath live detecting map with active timer and add find button"
+                >
+
+                <h3>Active Detecting Controls</h3>
+
+                <p>
+                    Keep the most important live hunt controls on screen:
+                    detecting timer, route direction control, map toggle, and
+                    a large Add Find button for quick field logging.
+                </p>
+            </article>
+
+            <article class="screenshot-card">
+                <img
+                    src="images/trips-history.jpg"
+                    alt="RelicPath trips screen showing completed Demo Park trip card"
+                >
+
+                <h3>Trips & Finds History</h3>
+
+                <p>
+                    Review completed detecting trips with saved trip cards, trip
+                    time, distance, find count, landowner information, hunting
+                    partners, and the finds library.
+                </p>
+            </article>
+
+            <article class="screenshot-card">
+                <img
+                    src="images/maps-hub.jpg"
+                    alt="RelicPath maps screen showing live trip map past trips map and heat map options"
+                >
+
+                <h3>Maps Hub</h3>
+
+                <p>
+                    Access the main map tools from one clean screen: Live Trip Map
+                    for active hunts, Past Trips Map for saved routes, and Heat Map
+                    tools for find-density review.
+                </p>
+            </article>
+
+            <article class="screenshot-card">
+                <img
+                    src="images/past-trips-map.jpg"
+                    alt="RelicPath past trips map showing saved route and find pins"
+                >
+
+                <h3>Past Trips Map</h3>
+
+                <p>
+                    Revisit saved routes after a hunt. The Past Trips Map shows the
+                    selected trip route, saved route points, and find markers for
+                    trip review and future planning.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section>
         <h2>Important Links</h2>
 
         <div class="link-card">
             <h3><a href="privacy.html">Privacy Policy</a></h3>
+
             <p>
                 Read how RelicPath handles location data, trip records, find logs,
                 photo references, profile information, account data, and optional
@@ -196,6 +290,7 @@ Revisit saved routes after a hunt. The Past Trips Map shows the selected trip ro
 
         <div class="link-card">
             <h3><a href="account-deletion.html">Account and Data Deletion</a></h3>
+
             <p>
                 Request deletion of your RelicPath account and associated cloud
                 backup data. Local data stored only on your device must be deleted
@@ -205,6 +300,7 @@ Revisit saved routes after a hunt. The Past Trips Map shows the selected trip ro
 
         <div class="link-card">
             <h3><a href="support.html">Support</a></h3>
+
             <p>
                 Contact RelicPath support for help with accounts, cloud backup,
                 subscriptions, privacy, email verification, or technical issues.
