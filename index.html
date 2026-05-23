@@ -72,6 +72,42 @@
             padding: 24px;
             font-size: 14px;
         }
+        /* Screenshot section styles go here */
+
+    .screenshots-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 22px;
+        margin-top: 20px;
+    }
+
+    .screenshot-card {
+        background: #121512;
+        border: 1px solid #333b33;
+        border-radius: 24px;
+        padding: 16px;
+    }
+
+    .screenshot-card img {
+        width: 100%;
+        border-radius: 18px;
+        border: 2px solid #333b33;
+        background: #121512;
+        display: block;
+    }
+
+    .screenshot-card h3 {
+        color: #c49a3a;
+        margin: 14px 0 8px;
+        font-size: 19px;
+    }
+
+    .screenshot-card p {
+        color: #f4efe3;
+        font-size: 14px;
+        line-height: 1.55;
+        margin: 0;
+    }
     </style>
 </head>
 <body>
